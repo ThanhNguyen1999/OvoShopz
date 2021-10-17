@@ -1,0 +1,58 @@
+ .motasp{
+height: 226px;
+
+}
+
+
+.add{
+
+	width : 403px;	
+}
+
+.luu{
+	text-decoration: none;
+    border: 1px solid #7649ae;
+    padding: 10px;
+    margin: 3px 0 20px 20px;
+    width: 150px;
+    background-color: #7649ae;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.luu:hover{
+ background-color: var(--second-color);
+    transition: all .5s ease 0s;
+}
+/* New */
+.data__update-title{
+  font-size: 16px;
+    font-weight: 600;
+    color: #7649ae;
+}
+input {
+      border-radius: 6px;
+    border: thin solid #ededed;
+    border-width: 1px;
+    width: 42%;
+    background-color: #f7f6f9;
+    padding: 6px 9px;
+    font-size: 16px;
+    outline: none;
+}
+td {
+      font-size: 16px;
+    font-weight: 600;
+    color: #7649ae;
+    border: none;
+}
+.data__info{
+  border-radius: 6px;
+    border: thin solid #ededed;
+    border-width: 1px;
+    width: 42%;
+    background-color: #f7f6f9;
+    padding: 6px 9px;
+    font-size: 16px;
+    outline: none;
+}

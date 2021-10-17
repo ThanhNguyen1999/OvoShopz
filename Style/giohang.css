@@ -1,0 +1,143 @@
+/* Old */
+.item_img {
+	width: 200px;
+}
+td {
+	text-align: center; 
+	vertical-align: middle;
+	font-size: 20px;
+  padding-top: 8px;
+}
+h1{
+	margin: 0 auto;
+}
+
+.tille-card{
+	text-align: center; 
+	background-color: #0084FF;
+}
+th{
+	font-size: 20px;
+}
+table{
+	padding: 50px 0;
+	
+}
+
+/* New */
+/* Map */
+.map{
+  height: 52px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.map__link{
+  text-decoration: none;
+    color: #757575;
+}
+.map__link-icons:first-child{
+      background-color: var(--white-color);
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    margin-left: 15px;
+}
+.map__link-icons{
+  margin: 0px 8px 0 2px;
+}
+.map__name{
+     color: rgb(51 51 51);
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 8px;
+    background-color: var(--white-color);
+    border-radius: 40px;
+    border: 1px solid #e0e0e0;
+    user-select: none;
+}
+.map__link-icons:first-child:hover{
+  background-color: var(--second-color);
+    color: var(--white-color);
+    transition: all .5s ease 0s;
+}
+/*  */
+.cart__wrap{
+  background-color: var(--white-color);
+  border-radius: 21px;
+  overflow: hidden;
+}
+.slsp{
+  padding: 4px;
+    font-size: 15px;
+    width: 144px;
+    text-align: center;
+}
+
+.remove{
+  color: var(--primary-color);
+    font-size: 38px;
+    border: 1px solid var( --second-color);
+    border-radius: 50%;
+}
+.total__money{
+    display: flex;
+    padding: 20px 28px 20px 0;
+    justify-content: flex-end;
+    margin-right: 77px;
+}
+.total__money-title{
+  margin-right: 32px;
+}
+.total__money-title,.total__money-number{
+  font-size: 25px;
+    font-weight: 600;
+}
+.decision{
+ display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 20px;
+    padding-bottom: 20px;
+    
+}
+.decision a{  
+    padding: 0px 32px;
+   
+}
+.row__table{
+  color: #fff;
+    background-color: var(--second-color);
+    border-radius: 21px;
+}
+.btn__decision_pay,.btn__decision_update{
+  background-color: var(--second-color);
+    color: var(--white-color);
+}
+.btn__decision_update{
+  position: absolute;
+  top: 0;
+  left: 74%;
+  outline: none;
+    border: none;
+    padding: 0px 32px;
+    cursor: pointer;
+}
+.btn__decision_update span{
+  font-size: 16px;
+    margin-right: 5px;
+}
+.btn__decision_more{
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.btn__decision_update:hover,.btn__decision_pay:hover{
+  background-color: #49419e;
+    transition: all .5s ease 0s;
+    color: var(--primary-color);
+}
+.btn__decision_more:hover{
+  background-color: #da782dd4;
+  color: var(--black-color);
+  transition: all .5s ease 0s;
+}

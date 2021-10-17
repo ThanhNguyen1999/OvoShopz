@@ -1,0 +1,208 @@
+
+.tensanpham {
+	text-align: center;
+  width: 300px;
+    padding: 0 20px;
+}
+
+.tien{
+	text-align: center;
+}
+.anhmota{
+	text-align: center;
+}
+.xoa{
+	text-align: center;
+}
+.topname{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+ul span {
+	display: inline-block;
+	font-size: 18px;
+}
+.addsanpham{
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	padding: 2px;
+}
+.addsanpham:hover{
+color: white;
+background-color: #0084FF;
+
+}
+ul {
+	list-style-type: none;
+}
+/* new */
+.main__admin{
+  width: 250px;
+  height:100vh;
+  background-color: #ebebf2;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        border-right: 1px solid #b7b3f7;
+        position: fixed;
+}
+.main__admin__title{
+
+}
+.main__admin__title-logo{
+     background-color: #fff;
+    text-align: center;
+    width: 250px;
+    border-right: 1px solid #b7b3f7;
+}
+.main__admin__content-title{
+  padding-bottom: 17px;
+}
+.main__admin__title-link{
+  color: #7649ae;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin: 10px;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+.main__admin__title-link i{
+      margin-right: 5px;
+}
+.main__admin__content{
+      flex: 1;
+      margin-top: 16px;
+}
+.main__admin__content-title{
+  margin-bottom: 20px;
+}
+
+.main__admin__list-title,.main__admin__content-title{
+  color: #7649ae;
+    margin-left: 10px;
+    border-bottom: 1px solid #7649ae47;
+}
+.main__admin__list-title i,.main__admin__content-title i{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.main__admin__list-title span,.main__admin__content-title span{
+  font-size: 17px;
+    font-weight: 600;
+    margin-left: 5px;  
+}
+.main__admin__list-title{
+  padding-bottom: 5px;
+}
+.main__admin__list-content{
+  margin: 10px 0 0 40px;
+  padding-bottom:20px;
+  font-weight: 600;
+}
+.main__admin__list-items{
+  line-height: 1.9rem;
+}
+.main__admin__list-items a{
+   text-decoration: none;
+  color: #7649ae;
+      display: block;
+}
+.main__admin__list-items a:hover{
+   background-color: #7649ae;
+    color: #fff;
+    padding: 2px 15px 2px 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 10px;
+    transform: translateX(10px);
+    transition: all .5s ease 0s;
+}
+.main__admin__footer{
+ width: 250px; 
+ height: 55px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-right: 1px solid #b7b3f7;
+}
+.main__admin__footer-link{
+  text-decoration: none;
+  color: #7649ae;
+}
+.main__admin__footer-link:hover,.main__admin__title-link:hover{
+  color: #b7b3f7;
+   transition: all .5s ease 0s;
+}
+.main__admin__footer-icon{
+ margin-right: 5px;
+}
+.main__admin__footer-text{
+
+}
+
+/* admin-sanpham-khach hang */
+.wrap{
+  display: flex;
+}
+.data{
+  width: 100%;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+.data__content{
+  flex: 1;
+    margin: 0 20px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+.data__title{
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 44px;
+    border-bottom: 1px solid var(--second-color);
+    padding-bottom: 20px;
+}
+.data__title-text{
+ color: #7649ae;
+    font-size: 29px;
+    font-weight: 600;
+}
+.data__title-text-sub{
+  font-size: 20px;
+    margin-left: 5px;
+        color: var(--second-color);
+}
+.data__add-btn{
+      border: 1px solid var(--second-color);
+    padding: 10px;
+    background-color: #7649ae;
+    color: var(--text-color);
+
+}
+.data__add-btn:hover{
+  background-color: var(--second-color);
+  transition: all 0.5s ease 0s;
+}
+
+.data__content{
+
+}
+.data__content__table{
+ padding: 15px;
+    width: 98%;
+    line-height: 3rem;
+}
+th,td {
+      border-bottom: 1px solid #7649ae47;
+  padding-bottom: 10px;
+}
+.capnhat{
+  padding: 22px;
+}
+pre{
+  font-family: "Times New Roman", Times, serif;
+}
