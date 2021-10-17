@@ -1,0 +1,104 @@
+.content{
+  background-color: var(--white-color);
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+/* map Ver1.0 */
+/* .map{
+    display: flex;
+    align-items: center;
+    height: 27px;
+    padding-left: 32px;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 2px 0px rgb(0 0 0 / 30%);
+    border-radius: 2px;
+} */
+/* .map a{
+  text-decoration: none;
+}
+.map span{
+  margin-right: 8px;
+}
+.map i{
+  margin-right: 8px;
+}
+.map-name{
+  text-transform: capitalize;
+} */
+/* map Ver 2.0 */
+.map{
+  height: 52px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.map__link{
+  text-decoration: none;
+    color: #757575;
+}
+.map__link-icons:first-child{
+      background-color: var(--white-color);
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    margin-left: 15px;
+}
+.map__link-icons{
+  margin: 0px 8px 0 2px;
+}
+.map__name{
+     color: rgb(51 51 51);
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 8px;
+    background-color: var(--white-color);
+    border-radius: 40px;
+    border: 1px solid #e0e0e0;
+    user-select: none;
+}
+.map__link-icons:first-child:hover,.map__name:hover{
+  background-color: var(--second-color);
+    color: var(--white-color);
+    transition: all .5s ease 0s;
+}
+/*  */
+.main__wrap-item{
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: 32px;
+}
+h1{
+  margin-left: 32px;
+  font-size: 36px;
+    padding: 5px 0;
+}
+.sort{
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 32px;
+    font-size: 16px;
+    padding: 12px 22px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.sort span{
+      font-weight: 600;
+}
+.sort-type{
+  text-decoration: none;
+    border: 1px solid var(--silver-color);
+    border-radius: 8px;
+    padding: 9px;
+    color: var(--black-color);
+}
+.sort-type:hover{
+  background-color: var(--second-color);
+  color:var(--text-color);
+  transition: all .5s ease 0s;
+}
+@media screen and (max-width: 1584px){
+  .main__wrap-item.stock{
+    justify-content: space-between;
+  }
+}
